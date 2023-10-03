@@ -1,0 +1,229 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Modern HTML Email Template</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style type="text/css">
+	body {
+		margin: 0;
+		background-color: #cccccc;
+	}
+	table {
+		border-spacing: 0;
+	}
+	td {
+		padding: 0;
+	}
+	img {
+		border: 0;
+	}
+	.wrapper{
+		width: 100%;
+		table-layout: fixed;
+		background-color: #f9fafb;
+		padding-bottom: 60px;
+	}
+	.main{
+		background-color: #FFFf;
+		margin: 0 auto;
+		width: 100%;
+		max-width: 600px;
+		border-spacing: 0;		
+	}
+	.two-columns{
+		font-size: 0;
+		text-align: center;
+		display: flex;
+		width: 100%;
+		justify-content: space-between;
+	}
+	.two-columns .column{
+		width: 100%;
+		max-width: 300px;
+		/* display: inline-block; */
+		display: flex;
+		justify-content: flex-start;
+		/* justify-self: flex-end; */
+		vertical-align: top;
+		/* text-align: right; */
+	}
+	.two-columns .column:nth-of-type(2){		
+		justify-content: flex-end;
+	}
+	.social-media a{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+</style>
+</head>
+<body>
+	<center class="wrapper">
+		<table class="main" width="100%">
+			<tr>
+				<td height="8" style="background-color: #4C3B57;"></td>
+			</tr>
+
+			<tr>
+				<td width="100% " style="padding: 1.25rem; margin-inline: auto;">
+					<a href="">
+						<img src="https://qataloog.s3.us-west-2.amazonaws.com/logo-primary.png" alt="qataloog logo" style=" width: 10rem; min-width: 2rem; object-fit: contain;">
+					</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<table style="background-color: #ffffff; display: flex; flex-direction: column; align-items: flex-start; padding: 1rem 1.5rem 3rem; height: auto; color: #12141D;">
+						<tr>
+							<td >
+								<h3 style="font-family: 'Martel Sans', sans-serif; letter-spacing: -0.03em;">
+									Salut,
+								</h3>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p style="font-family: 'PT Sans', sans-serif; font-weight: 400; font-size: 18px; line-height: 28px; color: rgba(18, 20, 29, 0.7);">
+									Vous recevez cet e-mail car nous avons reçu une demande de réinitialisation du mot de passe de votre
+									compte.
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a href="http://qataloog-frontend-website.s3-website-us-west-2.amazonaws.com/reset-password?token=3dec7d581aa4bd792196e22bdce647ec4351904ff804027654794ee4e423d32c&amp;email=nsonguruajohnson@gmail.com"
+            						style="background-color: #B79A5C; border: 1px solid #B79A5C; box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05); width: 15.375rem; height: 44px; border-radius: 8px; margin-top: 48px; cursor: pointer; color: #ffffff; font-family: 'Martel Sans', sans-serif; font-size: 16px; font-weight: 700; text-decoration:none; padding:0 5px">
+            						Réinitialiser le mot de passe
+        						</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p style="height: auto; font-family: 'PT Sans', sans-serif; font-weight: 400; font-size: 18px; line-height: 28px; color: rgba(18, 20, 29, 0.7);">
+									Ce lien de réinitialisation de mot de passe expirera dans 60 minutes,<br>
+									Si vous n'avez pas demandé de réinitialisation du mot de passe, aucune autre action n'est requise.
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p style="height: auto; font-family: 'PT Sans', sans-serif; font-weight: 400; font-size: 18px; line-height: 28px; color: rgba(18, 20, 29, 0.7);">
+									Vous utilisez l'application mobile? Utilisez OTP ci-dessous
+								 </p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p style="font-family: 'PT Sans', sans-serif; font-weight: 400; font-size: 18px; line-height: 28px; color: rgba(18, 20, 29, 0.7);">
+									Code OTP: <b>2438</b>
+								</p>
+							</td>
+						</tr>
+					</table>
+				</td>				
+			</tr>	
+			<tr>
+				<td>
+					<table style="background-color: #4C3B57; padding: 1rem 1rem 3rem; border-radius: 0rem 0rem 0.25rem 0.25rem; width: 100%;">
+						<tr>
+							<td>
+								<hr style="background-color: #eaecf0; width: 100%; height: 1px;">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<ul style="height: 20px; list-style: none; padding: 0px; display: flex; gap: 1rem;">
+									<a href="https://qataloog.com/terms" style="border-bottom: 1px solid #e4e7ec; text-decoration: none;">
+										<li
+											style="color: #e4e7ec; font-family: 'PT Sans', sans-serif; font-style: normal; font-weight: 500; font-size: 14px; line-height: 20px;">
+											Termes
+										</li>
+									</a>
+									<a href="https://qataloog.com/privacy" style="border-bottom: 1px solid #e4e7ec; text-decoration: none;">
+										<li
+											style="color: #e4e7ec; font-family: 'PT Sans', sans-serif; font-style: normal; font-weight: 500; font-size: 0.875rem;line-height: 1.25rem;">
+											Confidentialité
+										</li>
+									</a>
+									<a href="https://qataloog.com/contact" style="border-bottom: 1px solid #e4e7ec; text-decoration: none;">
+										<li
+											style="color: #e4e7ec; font-family: 'PT Sans', sans-serif; font-style: normal; font-weight: 500; font-size: 0.875rem;line-height: 1.25rem;">
+											Contactez-nous
+										</li>
+									</a>
+								</ul>
+							</td>
+						</tr>
+						<tr>
+							<td style="font-family: 'PT Sans', sans-serif; font-style: normal; font-weight: 500; font-size: 0.875rem; color: #e4e7ec;">
+								<p style="margin-bottom: 1rem;">USA: 8 The Green, St Dover, DE 19901</p>
+							</td>							
+						</tr>
+						<tr>
+							<td style="font-family: 'PT Sans', sans-serif; font-style: normal; font-weight: 500; font-size: 0.875rem; color: #e4e7ec;">
+								<p style="margin-bottom: 1rem;">Sengal: Point E, Rue Ambassades Immeuble Djaraf, DER HUb, Dakar</p>
+							</td>
+						</tr>
+						<tr>
+							<td style="font-family: 'PT Sans', sans-serif; font-style: normal; font-weight: 500; font-size: 0.875rem; color: #e4e7ec;">
+								<p style="margin-bottom: 1rem;">Nigeria: 1A Akin Osiyemi Street, Allen Avenue IKeja-Lagos</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<table width="100%" style="table-layout: fixed;">
+									<tr>
+										<td class="two-columns">
+											<table class="column">
+												<tr>
+													<td class="logo">
+														 <a href="">
+															<img src="https://qataloog.s3.us-west-2.amazonaws.com/logo-primary-white.png" alt="qataloog" title="qataloog" style="width: 8rem;">
+														 </a>
+													</td>
+												</tr>
+											</table>
+											<table class="column">
+												<tr>
+													<td class="social-media">
+														<a href="https://twitter.com/qataloog">
+															<img src="https://qataloog.s3.us-west-2.amazonaws.com/email_assets/twitter.png" alt="" class="socials">
+														</a>
+														<a href="https://www.facebook.com/qataloog">
+															<img src="https://qataloog.s3.us-west-2.amazonaws.com/email_assets/facebook.png" alt="" class="socials">
+														</a>
+														<a href="https://www.linkedin.com/company/qataloog">
+															<img src="https://qataloog.s3.us-west-2.amazonaws.com/email_assets/linkedin.png" alt="" class="socials">
+														</a>														
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+									<!-- <tr style="display: flex; align-items: center; justify-content: space-between; margin-top: 1.625rem; width: 100%;">
+										
+										<td style="display: flex; flex-direction: row; justify-content: space-between; width: 5.75rem; height: 1.25rem;">
+											
+											
+										</td>											
+									</tr> -->
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+						
+		</table>
+	</center>
+</body>
+</html>
+
